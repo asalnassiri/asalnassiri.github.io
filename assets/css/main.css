@@ -127,3 +127,60 @@ body {
 .footer 
 .love{color:red}
 .footer a{text-decoration:none;margin:0;color:#fff}
+
+#navcore .navbar-toggler {
+  color: white;
+  font-size: 14px;
+  border: 1px solid white;
+  padding: 11px; }
+
+#navcore .navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #0b0c10; }
+  #navcore .navbar .navbar-toggler {
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 11px; }
+
+#navcore .navbar-brand {
+  font-weight: 700; }
+
+#navcore a {
+  color: white; }
+
+#navcore .navbar-nav .nav-item {
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out; }
+  #navcore .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent; }
+  #navcore .navbar-nav .nav-item:focus, #navcore .navbar-nav .nav-item:active {
+    outline: none;
+    background-color: transparent; }
+  #navcore .navbar-nav .nav-item.navbar-shrink {
+    padding: 10px 0;
+    background: #0b0c10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+@media (min-width: 768px) {
+  #navcore {
+    padding: 10px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: #0b0c10;
+    -webkit-transition: background .25s ease-in-out, padding .25s ease-in-out;
+    transition: background .25s ease-in-out, padding .25s ease-in-out; }
+    #navcore.navbar-shrink {
+      padding: 10px 0;
+      background: #0b0c10;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+    #navcore .nav-link.active {
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.3); }
+      #navcore .nav-link.active:hover {
+        color: white; } }
